@@ -1,0 +1,112 @@
+Remember thes items are based from my server
+
+--------
+-- Items 
+--------
+
+Remember thes items are based from my server
+You may have to ajust to your server needs.
+Make sure you oversee the pictures to make sure you using ones you want.
+
+
+Add them to your "resources\[framework]\rsg-core\shared\items.lua"
+
+	['aplank']          = {['name'] = 'aplank',         ['label'] = 'Low Grade Wood Plank',     ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'aplank.png',       ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'wodden plank'},
+    ['bplank']          = {['name'] = 'bplank',         ['label'] = 'Mid Grade Wood Plank',     ['weight'] = 200,   ['type'] = 'item',  ['image'] = 'bplank.png',       ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'wodden plank'},
+    ['cplank']          = {['name'] = 'cplank',         ['label'] = 'High Grade Wood Plank',    ['weight'] = 300,   ['type'] = 'item',  ['image'] = 'cplank.png',       ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'wodden plank'},
+    ['wagonwheel']      = {['name'] = 'wagonwheel',     ['label'] = 'Wagon Wheel',              ['weight'] = 1000,  ['type'] = 'item',  ['image'] = 'wwheel.png',       ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['shovelhandle']    = {['name'] = 'shovelhandle',   ['label'] = 'Shovel Handle',            ['weight'] = 200,   ['type'] = 'item',  ['image'] = 'shandle.png',      ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['axehandle']       = {['name'] = 'axehandle',      ['label'] = 'Axe Handle',               ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'ahandle.png',      ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['gunstalk']        = {['name'] = 'gunstalk',       ['label'] = 'Gun Stalk',                ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'gunstock.png',     ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['gunhandle']       = {['name'] = 'gunhandle',      ['label'] = 'Gun Handle',               ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'gunhandle.png',    ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['gunforend']       = {['name'] = 'gunforend',      ['label'] = 'Gun Forend',               ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'gunforend.png',    ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['nails']           = {['name'] = 'nails',          ['label'] = 'Nails',                    ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'nails.png',        ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = ''},
+    ['sapkit']      = {['name'] = 'sapkit',     ['label'] = 'Sap Tap',  ['weight'] = 100,   ['type'] = 'item',  ['image'] = 'sapkit.png',   ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'sap extractor'},
+
+
+---------
+-- Jobs
+---------
+
+Add these to your jobs "resources\[framework]\rsg-core\shared\jobs.lua"
+
+    ['annlumberjack'] = {
+        label = 'SB Lumberjack',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Logger',
+                payment = 10
+            },
+            ['1'] = {
+                name = 'Shop Hand',
+                payment = 15
+            },
+            ['2'] = {
+                name = 'LumberJack',
+                isboss = true,
+                payment = 0
+            },
+        },
+    },
+    ['sblumberjack'] = {
+        label = 'SB Lumberjack',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Logger',
+                payment = 10
+            },
+            ['1'] = {
+                name = 'Shop Hand',
+                payment = 15
+            },
+            ['2'] = {
+                name = 'LumberJack',
+                isboss = true,
+                payment = 0
+            },
+        },
+    },
+    ['bslumberjack'] = {
+        label = 'BS Lumberjack',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Logger',
+                payment = 10
+            },
+            ['1'] = {
+                name = 'Shop Hand',
+                payment = 15
+            },
+            ['2'] = {
+                name = 'LumberJack',
+                isboss = true,
+                payment = 0
+            },
+        },
+    },
+    ['bwlumberjack'] = {
+        label = 'BW Lumberjack',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Logger',
+                payment = 10
+            },
+            ['1'] = {
+                name = 'Shop Hand',
+                payment = 15
+            },
+            ['2'] = {
+                name = 'LumberJack',
+                isboss = true,
+                payment = 0
+            },
+        },
+    },
